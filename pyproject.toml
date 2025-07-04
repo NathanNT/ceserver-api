@@ -1,0 +1,27 @@
+[project]
+name = "ceserver-api"
+version = "0.1.2"
+description = "Python Client to comunicate with Cheat Engine's ceserver"
+readme = "README.md"
+license = { text = "BSD" }
+authors = [{ name = "Felipe Gatica", email = "felipeparagati@gmail.com" }]
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+    "construct>=2.10"
+]
+
+[project.urls]
+Homepage = "https://github.com/juzt3/ceserver-api"
+Repository = "https://github.com/juzt3/ceserver-api"
+Issues = "https://github.com/juzt3/ceserver-api/issues"
+
+[build-system]
+requires = ["setuptools>=42","wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["ceserver_api"]
